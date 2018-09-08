@@ -5,10 +5,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-	"tsc_validate_watch": "node_modules/typescript/bin/tsc --project ./jsconfig.json --noEmit true --traceResolution true --watch",
+    "tsc_validate_watch": "node_modules/typescript/bin/tsc --project ./jsconfig.json --noEmit true --traceResolution true --watch",
     "tsc_validate": "node_modules/typescript/bin/tsc --project ./jsconfig.json --noEmit true",
-	"tsc_log_validate": "/bin/bash -c 'node_modules/typescript/bin/tsc --project ./jsconfig.json --noEmit true --traceResolution true | tee target/tsc.trace.log; echo $?'",
-	"test": "yarn tsc_validate"
+    "tsc_log_validate": "/bin/bash -c 'node_modules/typescript/bin/tsc --project ./jsconfig.json --noEmit true --traceResolution true | tee target/tsc.trace.log; echo $?'",
+    "test": "yarn tsc_validate"
   },
   "dependencies": {
     "mime": "^2.3.1",
