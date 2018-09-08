@@ -13,6 +13,7 @@ function clazz1a(){
  * e.g. text/html returns html
  * 
  * @param {string} mime
+ * @returns {string | null}
  */
 clazz1a.prototype.getExtensionFor = function(mime){
 	return mimeLib.getExtension(mime)
