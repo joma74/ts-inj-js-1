@@ -1,7 +1,5 @@
 /// <reference types="node" />
 
-export = global;
-
 import clazz1b = require("../clazz1b") 
 
 declare global {
@@ -12,3 +10,5 @@ declare global {
 		}
 	}
 }
+
+export {global}
