@@ -20,4 +20,12 @@ clazz1b.prototype.getExtensionFor = function(mime){
 	return this.member1bClazz1a.getExtensionFor(mime)
 }
 
+/**
+ * 
+ * @param {Error} err 
+ */
+clazz1b.prototype.getErrorAsString = function(err){
+	return global.getErrorAsString(err); // Does come, as expected, from types/global.d.ts
+}
+
 module.exports=clazz1b
