@@ -3,7 +3,7 @@
 export {}
 
 import clazz1bType  = require("../clazz1b")
-type clazz1bType = typeof clazz1bType
+type clazz1bType = { new(): clazz1bType }
 
 declare function getErrorAsString(err: Error): string
 type getErrorAsString = typeof getErrorAsString

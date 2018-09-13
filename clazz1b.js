@@ -7,6 +7,7 @@ var mimeLib = require("mime")
 function clazz1b(clazz1aInstance){
 
 	this.member1bString=aglobalstringFromTsInJs1 // Usage of global
+	this.member1bGlobalClazz1a=aglobalClazz1aFromTsInJs1 // Usage of global
 	this.member1bClazz1a=clazz1aInstance
 } 
 
