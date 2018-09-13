@@ -19,7 +19,13 @@ if(global.getErrorAsString) {
   * ISSUE clazz1bGlobalVar is implicitly defined? Is NOT infered from types/global.d.ts
   */
 global.clazz1bGlobalVar=clazz1aInstance
-aglobalClazz1aFromTsInJs1=clazz1aInstance	// ISSUE Type 'clazz1a' is not assignable to type 'typeof clazz1a'.
-											// Type 'clazz1a' provides no match for the signature '(): void'.
+// ISSUE Type 'clazz1a' is not assignable to type 'typeof clazz1a'.
+// Type 'clazz1a' provides no match for the signature '(): void'.
+aglobalClazz1aFromTsInJs1=clazz1aInstance
+
+if(aglobalClazz1aFromTsInJs1){
+	// ISSUE [ts] Property 'getExtensionFor' does not exist on type 'typeof clazz1a'. 
+	aglobalClazz1aFromTsInJs1.getExtensionFor("text/html") 
+}
 
 module.exports=clazz1bInstance
