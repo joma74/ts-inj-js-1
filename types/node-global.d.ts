@@ -1,6 +1,9 @@
 /// <reference types="node" />
 
-import clazz1b = require("../clazz1b") 
+export {}
+
+import clazz1b = require("../clazz1b")
+type clazz1b = typeof clazz1b
 
 declare global {
 	namespace NodeJS {
@@ -10,5 +13,3 @@ declare global {
 		}
 	}
 }
-
-export {global}

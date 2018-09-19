@@ -1,5 +1,5 @@
-declare global {
-	const aglobalstringFromTsInJs1: string = "aglobalstringFromTsInJs1"
-}
+export {}
 
-export {global}
+declare global {
+	var aglobalstringFromTsInJs1: string = "aglobalstringFromTsInJs1"
+}

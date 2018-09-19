@@ -1,7 +1,7 @@
 var mimeLib = require("mime")
 
 /**
- * @class
+ * @constructor
  * @param {import ("./clazz1a")} clazz1aInstance
  */
 function clazz1b(clazz1aInstance){

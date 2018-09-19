@@ -18,8 +18,8 @@ if(global.getErrorAsString) {
  /**
   * ISSUE clazz1bGlobalVar is implicitly defined? Is NOT infered from types/global.d.ts
   */
-global.clazz1bGlobalVar= "clazz1bInstance"
+global.clazz1bGlobalVar=clazz1bInstance
 
+aglobalstringFromTsInJs1="123"
 
-
-module.exports={clazz1bInstance}
+module.exports=clazz1bInstance
