@@ -4,9 +4,13 @@
 
  var clazz1a = require("./clazz1a")
  var clazz1b = require("./clazz1b")
+ var clazz1c = require("./clazz1c")
+ var C = require("./C")
 
  var clazz1aInstance = new clazz1a();
  var clazz1bInstance = new clazz1b(clazz1aInstance);
+ var clazz1cInstance = new clazz1c();
+ var CInstance = new C(clazz1aInstance);
 
  /**
  * ISSUE getErrorAsString is NOT infered from types/global.d.ts

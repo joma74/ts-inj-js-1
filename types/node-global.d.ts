@@ -2,13 +2,17 @@
 
 export {}
 
-import clazz1b = require("../clazz1b")
-type clazz1b = typeof clazz1b
+import C = require("../C")
+import Clazz1bType = require("../clazz1b")
+type Clazz1bType = typeof Clazz1bType
+import Clazz1cType = require("../clazz1c")
+
+const clazz1bGlobalVar: Clazz1bType
 
 declare global {
 	namespace NodeJS {
 		interface Global {
-			clazz1bGlobalVar: clazz1b // ISSUE just any; ISSUE not visible from outside
+			clazz1bGlobalVar: Clazz1bType // ISSUE just any; ISSUE not visible from outside
 			getErrorAsString(err: Error): string // ISSUE not visible from outside
 		}
 	}
