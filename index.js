@@ -18,7 +18,7 @@ if(global.getErrorAsString) {
  /**
   * ISSUE clazz1bGlobalVar is implicitly defined? Is NOT infered from types/global.d.ts
   */
-global.clazz1bGlobalVar=clazz1aInstance
+global.clazz1bGlobalVar=clazz1bInstance
 // ISSUE Type 'clazz1a' is not assignable to type 'typeof clazz1a'.
 // Type 'clazz1a' provides no match for the signature '(): void'.
 aglobalClazz1aFromTsInJs1=clazz1aInstance

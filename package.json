@@ -11,11 +11,11 @@
     "test": "yarn tsc_validate"
   },
   "dependencies": {
-    "mime": "^2.3.1",
-    "typescript": "^3.1.0-dev.20180906"
+    "mime": "^2.3.1"
   },
   "devDependencies": {
     "@types/mime": "^2.0.0",
-    "@types/node": "^10.9.4"
+    "@types/node": "^10.9.4",
+    "typescript": "^3.2.0-dev.20180928"
   }
 }
