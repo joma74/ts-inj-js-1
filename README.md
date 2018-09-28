@@ -1,0 +1,1 @@
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=joma74/ts-in-js-1)](https://dependabot.com)
