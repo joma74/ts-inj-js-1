@@ -1,5 +1,5 @@
 /**
- * @class
+ * @constructor
  */
 function clazz1c(){
 	this.constructorOnly = 0

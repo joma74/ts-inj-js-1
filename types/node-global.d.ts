@@ -1,14 +1,10 @@
 /// <reference types="node" />
 
-export {}
-
 import C = require("../C")
 import Clazz1bType = require("../clazz1b")
-type Clazz1bType = typeof Clazz1bType
+// type Clazz1bType = typeof Clazz1bType
 import Clazz1cType = require("../clazz1c")
-type Clazz1cType = typeof Clazz1cType
-
-const clazz1bGlobalVar: Clazz1bType
+// type Clazz1cType = typeof Clazz1cType
 
 declare global {
 	namespace NodeJS {

@@ -24,6 +24,8 @@ if(global.getErrorAsString) {
   */
 global.clazz1bGlobalVar=clazz1bInstance
 
+clazz1CGlobalVar=clazz1cInstance
+
 aglobalstringFromTsInJs1="123"
 
 module.exports=clazz1bInstance
