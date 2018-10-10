@@ -1,1 +1,2 @@
 [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=joma74/ts-in-js-1)](https://dependabot.com)
+[![Build Status](https://travis-ci.org/joma74/ts-in-js-1.svg?branch=master)](https://travis-ci.org/joma74/ts-in-js-1)
