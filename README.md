@@ -1,1 +1,2 @@
-[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=joma74/ts-in-js-1&branch=ts-issue-global-demo)](https://dependabot.com)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=joma74/ts-in-js-1&branch=ts-issue-global-demo)](https://dependabot.com) 
+[![Build Status](https://travis-ci.org/joma74/ts-in-js-1.svg?branch=ts-issue-global-demo)](https://travis-ci.org/joma74/ts-in-js-1)
