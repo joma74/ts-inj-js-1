@@ -7,8 +7,8 @@
   resolved "https://registry.yarnpkg.com/@types/mime/-/mime-2.0.0.tgz#5a7306e367c539b9f6543499de8dd519fac37a8b"
 
 "@types/node@^10.9.4":
-  version "10.12.5"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.5.tgz#7e7ea1a9b34d2c8d704cb0b755dffbcda34741ad"
+  version "10.12.6"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.6.tgz#7fc213c1b811c90fc9a3edb6206742b95d697678"
 
 mime@^2.3.1:
   version "2.3.1"
