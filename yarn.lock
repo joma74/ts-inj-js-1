@@ -15,5 +15,5 @@ mime@^2.3.1:
   resolved "https://registry.yarnpkg.com/mime/-/mime-2.3.1.tgz#b1621c54d63b97c47d3cfe7f7215f7d64517c369"
 
 typescript@^3.2.0-dev.20180928:
-  version "3.2.0-dev.20181114"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.2.0-dev.20181114.tgz#0a1f6669eeb9d8ea264d0a9da5a033f9cec887a6"
+  version "3.2.0-dev.20181115"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.2.0-dev.20181115.tgz#19d23d64658198e334e4d42c560ad61ffe33ced7"
