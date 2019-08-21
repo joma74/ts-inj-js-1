@@ -1,7 +1,7 @@
 export {}
 
 import Clazz1cType = require("../clazz1c")
-type Clazz1cType = typeof Clazz1cType
+type Clazz1cType = typeof Clazz1cType // why this extra
 import ClazzCType = require("../C")
 
 declare global {
