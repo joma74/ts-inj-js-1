@@ -16,6 +16,6 @@
   "devDependencies": {
     "@types/mime": "^2.0.0",
     "@types/node": "^10.9.4",
-    "typescript": "^3.2.0-dev.20180928"
+    "typescript": "next"
   }
 }
