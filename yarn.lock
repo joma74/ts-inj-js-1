@@ -16,6 +16,6 @@ mime@^2.3.1:
   resolved "https://registry.yarnpkg.com/mime/-/mime-2.4.4.tgz#bd7b91135fc6b01cde3e9bae33d659b63d8857e5"
 
 typescript@next:
-  version "3.7.0-dev.20191014"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.7.0-dev.20191014.tgz#5c35d63591627c668cedb8cddc61a85fbeb1c1c2"
-  integrity sha512-kaG+8Os48sMYj57/UvwkoADjvLgvDLWEwOj3HVJ3AhQykMJ7CKpBzaXwuNwfmO4Q3KSdcinGXLt9RIXLdhfyXw==
+  version "4.4.0-dev.20210712"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.4.0-dev.20210712.tgz#87d9f9452bcb70a8d357f8a1b8c749fc809b202b"
+  integrity sha512-Xrg0x8qrW9MCu2HmDHzBL9vTtlT+rEkp5l19ceZR5zMgHQIBWisxiB0/0tlESK0ZPsk7tN6Y/zr3pqSY6DTOAA==
